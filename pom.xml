@@ -6,5 +6,9 @@
   <packaging>pom</packaging>
   <modules>
     <module>MavenIV.controller</module>
+    <module>MavenIV.view</module>
+    <module>MavenIV.model</module>
+    <module>MavenIV.contract</module>
+    <module>MavenIV.main</module>
   </modules>
 </project>
