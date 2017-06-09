@@ -22,5 +22,20 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>fr.exia</groupId>
+      <artifactId>MavenIV.controller</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>fr.exia</groupId>
+      <artifactId>MavenIV.model</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>fr.exia</groupId>
+      <artifactId>MavenIV.view</artifactId>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>
