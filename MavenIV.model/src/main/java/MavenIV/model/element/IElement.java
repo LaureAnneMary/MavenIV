@@ -1,4 +1,4 @@
-package model.element;
+package MavenIV.model.element;
 
 import java.awt.Image;
 

@@ -1,8 +1,8 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
-import fr.exia.insanevehicles.model.element.Element;
-import fr.exia.insanevehicles.model.element.Permeability;
-import fr.exia.insanevehicles.model.element.Sprite;
+import MavenIV.model.element.Element;
+import MavenIV.model.element.Permeability;
+import MavenIV.model.element.Sprite;
 
 /**
  * <h1>The MotionlessElement Class.</h1>

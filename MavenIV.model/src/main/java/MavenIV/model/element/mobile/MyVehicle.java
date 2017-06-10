@@ -1,10 +1,10 @@
-package model.element.mobile;
+package MavenIV.model.element.mobile;
 
 import java.io.IOException;
 
-import model.IRoad;
-import model.element.Permeability;
-import model.element.Sprite;
+import MavenIV.model.IRoad;
+import MavenIV.model.element.Permeability;
+import MavenIV.model.element.Sprite;
 
 /**
  * <h1>The MyVehicle Class.</h1>

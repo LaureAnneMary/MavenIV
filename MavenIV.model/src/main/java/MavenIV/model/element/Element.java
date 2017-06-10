@@ -1,4 +1,4 @@
-package model.element;
+package MavenIV.model.element;
 
 import java.awt.Image;
 
@@ -35,6 +35,7 @@ public abstract class Element implements IElement {
      *
      * @see fr.exia.insanevehicles.model.element.IElement#getSprite()
      */
+    @Override
     public final Sprite getSprite() {
         return this.sprite;
     }
@@ -54,6 +55,7 @@ public abstract class Element implements IElement {
      *
      * @see fr.exia.insanevehicles.model.element.IElement#getPermeability()
      */
+    @Override
     public final Permeability getPermeability() {
         return this.permeability;
     }
@@ -78,6 +80,7 @@ public abstract class Element implements IElement {
      *
      * @see fr.exia.insanevehicles.model.element.IElement#getImage()
      */
+    @Override
     public final Image getImage() {
         return this.getSprite().getImage();
     }

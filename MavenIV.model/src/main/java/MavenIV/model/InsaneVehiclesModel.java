@@ -1,9 +1,9 @@
-package model;
+package MavenIV.model;
 
 import java.io.IOException;
 
-import model.element.mobile.IMobile;
-import model.element.mobile.MyVehicle;
+import MavenIV.model.element.mobile.IMobile;
+import MavenIV.model.element.mobile.MyVehicle;
 
 /**
  * <h1>The Class InsaneVehiclesModel.</h1>
