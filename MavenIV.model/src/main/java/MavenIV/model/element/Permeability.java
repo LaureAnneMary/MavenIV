@@ -1,4 +1,4 @@
-package model.element;
+package MavenIV.model.element;
 
 /**
  * <h1>The Permeability Enum.</h1>

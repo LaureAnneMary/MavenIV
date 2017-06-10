@@ -1,7 +1,7 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
-import model.element.Permeability;
-import model.element.Sprite;
+import MavenIV.model.element.Permeability;
+import MavenIV.model.element.Sprite;
 
 /**
  * <h1>The Tree Class.</h1>

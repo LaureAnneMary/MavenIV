@@ -1,4 +1,4 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
 /**
  * <h1>A factory to create MotionlessElements objects.</h1>

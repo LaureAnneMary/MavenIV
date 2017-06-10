@@ -1,23 +1,23 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
 import fr.exia.insanevehicles.model.element.Permeability;
 import fr.exia.insanevehicles.model.element.Sprite;
 
 /**
- * <h1>The DitchLeft Class.</h1>
+ * <h1>The Ditch Class.</h1>
  *
  * @author Jade
  * @version 0.2
  */
-class DitchLeft extends MotionlessElement {
+class DitchLeftTurnLeft extends MotionlessElement {
 
     /** The Constant SPRITE. */
-    private static final Sprite SPRITE = new Sprite('[', "DitchLeft.jpg");
+    private static final Sprite SPRITE = new Sprite('(', "DitchLeftTurnLeft.jpg");
 
     /**
-     * Instantiates a new ditchLeft.
+     * Instantiates a new ditch.
      */
-    DitchLeft() {
+    DitchLeftTurnLeft() {
         super(SPRITE, Permeability.BLOCKING);
     }
 }

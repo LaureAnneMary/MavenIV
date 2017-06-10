@@ -1,9 +1,9 @@
-package model.element.mobile;
+package MavenIV.model.element.mobile;
 
 import java.awt.Point;
 
+import MavenIV.model.element.IElement;
 import fr.exia.showboard.IPawn;
-import model.element.IElement;
 
 /**
  * <h1>The Interface IMobile.</h1>

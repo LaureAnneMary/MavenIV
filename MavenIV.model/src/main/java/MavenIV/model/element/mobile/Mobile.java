@@ -1,12 +1,12 @@
-package model.element.mobile;
+package MavenIV.model.element.mobile;
 
 import java.awt.Point;
 
+import MavenIV.model.IRoad;
+import MavenIV.model.element.Element;
+import MavenIV.model.element.Permeability;
+import MavenIV.model.element.Sprite;
 import fr.exia.showboard.IBoard;
-import model.IRoad;
-import model.element.Element;
-import model.element.Permeability;
-import model.element.Sprite;
 
 /**
  * <h1>The Mobile Class.</h1>

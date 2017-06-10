@@ -1,4 +1,4 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
 import fr.exia.insanevehicles.model.element.Permeability;
 import fr.exia.insanevehicles.model.element.Sprite;
@@ -9,15 +9,15 @@ import fr.exia.insanevehicles.model.element.Sprite;
  * @author Jade
  * @version 0.2
  */
-class DitchLeftTurnRight extends MotionlessElement {
+class DitchRightTurnRight extends MotionlessElement {
 
     /** The Constant SPRITE. */
-    private static final Sprite SPRITE = new Sprite('{', "DitchLeftTurnRight.jpg");
+    private static final Sprite SPRITE = new Sprite(')', "DitchRightTurnRight.jpg");
 
     /**
      * Instantiates a new ditch.
      */
-    DitchLeftTurnRight() {
+    DitchRightTurnRight() {
         super(SPRITE, Permeability.BLOCKING);
     }
 }

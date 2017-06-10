@@ -1,8 +1,8 @@
-package model;
+package MavenIV.model;
 
 import java.util.Observable;
 
-import model.element.IElement;
+import MavenIV.model.element.IElement;
 
 /**
  * <h1>The Interface IRoad.</h1>

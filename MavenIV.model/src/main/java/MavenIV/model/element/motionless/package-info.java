@@ -6,4 +6,4 @@
  * @version 0.3
  */
 
-package model.element.motionless;
+package MavenIV.model.element.motionless;

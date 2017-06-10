@@ -1,6 +1,6 @@
-package model;
+package MavenIV.model;
 
-import model.element.mobile.IMobile;
+import MavenIV.model.element.mobile.IMobile;
 
 /**
  * <h1>The Interface IInsaneVehiclesModel.</h1>

@@ -1,4 +1,4 @@
-package model.element.motionless;
+package MavenIV.model.element.motionless;
 
 import fr.exia.insanevehicles.model.element.Permeability;
 import fr.exia.insanevehicles.model.element.Sprite;

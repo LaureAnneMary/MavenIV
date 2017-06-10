@@ -1,4 +1,4 @@
-package model;
+package MavenIV.model;
 
 import java.io.BufferedReader;
 import java.io.FileInputStream;
@@ -6,8 +6,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Observable;
 
-import model.element.IElement;
-import model.element.motionless.MotionlessElementsFactory;
+import MavenIV.model.element.IElement;
+import MavenIV.model.element.motionless.MotionlessElementsFactory;
 
 /**
  * <h1>The Road Class.</h1>
@@ -72,6 +72,7 @@ class Road extends Observable implements IRoad {
      *
      * @see fr.exia.insanevehicles.model.IRoad#getWidth()
      */
+    @Override
     public final int getWidth() {
         return this.width;
     }
@@ -91,6 +92,7 @@ class Road extends Observable implements IRoad {
      *
      * @see fr.exia.insanevehicles.model.IRoad#getHeight()
      */
+    @Override
     public final int getHeight() {
         return this.height;
     }
@@ -110,6 +112,7 @@ class Road extends Observable implements IRoad {
      *
      * @see fr.exia.insanevehicles.model.IRoad#getOnTheRoadXY(int, int)
      */
+    @Override
     public final IElement getOnTheRoadXY(final int x, final int y) {
         return this.onTheRoad[x][y];
     }
@@ -117,15 +120,15 @@ class Road extends Observable implements IRoad {
     /**
      * Sets the on the road XY.
      *
-     * @param element
+     * @param motionlessElement
      *            the element
      * @param x
      *            the x
      * @param y
      *            the y
      */
-    private void setOnTheRoadXY(final IElement element, final int x, final int y) {
-        this.onTheRoad[x][y] = element;
+    private void setOnTheRoadXY(final MotionlessElement motionlessElement, final int x, final int y) {
+        this.onTheRoad[x][y] = motionlessElement;
     }
 
     /*
@@ -133,6 +136,7 @@ class Road extends Observable implements IRoad {
      *
      * @see fr.exia.insanevehicles.model.IRoad#setMobileHasChanged()
      */
+    @Override
     public final void setMobileHasChanged() {
         this.setChanged();
         this.notifyObservers();
@@ -143,6 +147,7 @@ class Road extends Observable implements IRoad {
      *
      * @see fr.exia.insanevehicles.model.IRoad#getObservable()
      */
+    @Override
     public Observable getObservable() {
         return this;
     }
