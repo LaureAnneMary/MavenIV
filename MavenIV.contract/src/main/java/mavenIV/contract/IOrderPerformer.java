@@ -1,10 +1,14 @@
-package contract;
+/*
+ *
+ */
+package mavenIV.contract;
 
 import java.io.IOException;
+import fr.exia.insanevehicles.controller.UserOrder;
 
 /**
  * <h1>The Interface IOrderPerformed.</h1>
- * 
+ *
  * @author Jade
  * @version 0.1
  */
