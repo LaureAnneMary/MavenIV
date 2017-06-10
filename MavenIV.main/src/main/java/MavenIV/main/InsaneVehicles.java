@@ -1,4 +1,4 @@
-package org.MavenIV.main;
+package MavenIV.main;
 
 import java.io.IOException;
 
