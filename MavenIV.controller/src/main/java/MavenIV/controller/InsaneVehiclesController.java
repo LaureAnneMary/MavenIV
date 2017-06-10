@@ -1,9 +1,11 @@
-package controller;
+package MavenIV.controller;
 
 import java.io.IOException;
 
+import MavenIV.controller.IIinsaneVehiclesController;
+import contract.IInsaneVehiclesView;
+import contract.IOrderPerformer;
 import fr.exia.insanevehicles.model.IInsaneVehiclesModel;
-import fr.exia.insanevehicles.view.IInsaneVehiclesView;
 
 /**
  * <h1>The Class InsaneVehiclesController.</h1>
@@ -42,7 +44,7 @@ public class InsaneVehiclesController implements IIinsaneVehiclesController, IOr
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see fr.exia.insanevehicles.controller.IIinsaneVehiclesController#play()
      */
     @Override
@@ -72,14 +74,14 @@ public class InsaneVehiclesController implements IIinsaneVehiclesController, IOr
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see
      * fr.exia.insanevehicles.controller.IOrderPerformed#orderPerform(fr.exia.
      * insanevehicles. controller.UserOrder)
      */
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see
      * fr.exia.insanevehicles.controller.IIinsaneVehiclesController#orderPerform
      * (fr.exia. insanevehicles.controller.UserOrder)
@@ -155,7 +157,7 @@ public class InsaneVehiclesController implements IIinsaneVehiclesController, IOr
 
     /*
      * (non-Javadoc)
-     * 
+     *
      * @see fr.exia.insanevehicles.controller.IIinsaneVehiclesController#
      * getOrderPeformer()
      */
