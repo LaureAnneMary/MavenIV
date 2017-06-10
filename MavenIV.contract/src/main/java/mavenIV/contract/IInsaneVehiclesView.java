@@ -1,4 +1,4 @@
-package contract;
+package mavenIV.contract;
 
 /**
  * <h1>The Interface IInsaneVehiclesView.</h1>
